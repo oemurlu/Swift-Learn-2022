@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B6EB479328BE5DEE00CC1C49 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EB479328BE5DEE00CC1C49 /* 1-Picture-Changer-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1-Picture-Changer-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EB479628BE5DEE00CC1C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6EB479828BE5DEE00CC1C49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B6EB479A28BE5DEE00CC1C49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		B6EB479428BE5DEE00CC1C49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6EB479328BE5DEE00CC1C49 /* MyFirstApp.app */,
+				B6EB479328BE5DEE00CC1C49 /* 1-Picture-Changer-App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6EB479228BE5DEE00CC1C49 /* MyFirstApp */ = {
+		B6EB479228BE5DEE00CC1C49 /* 1-Picture-Changer-App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6EB47A728BE5DF000CC1C49 /* Build configuration list for PBXNativeTarget "MyFirstApp" */;
+			buildConfigurationList = B6EB47A728BE5DF000CC1C49 /* Build configuration list for PBXNativeTarget "1-Picture-Changer-App" */;
 			buildPhases = (
 				B6EB478F28BE5DEE00CC1C49 /* Sources */,
 				B6EB479028BE5DEE00CC1C49 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = MyFirstApp;
+			name = "1-Picture-Changer-App";
 			productName = MyFirstApp;
-			productReference = B6EB479328BE5DEE00CC1C49 /* MyFirstApp.app */;
+			productReference = B6EB479328BE5DEE00CC1C49 /* 1-Picture-Changer-App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B6EB478E28BE5DEE00CC1C49 /* Build configuration list for PBXProject "MyFirstApp" */;
+			buildConfigurationList = B6EB478E28BE5DEE00CC1C49 /* Build configuration list for PBXProject "1-Picture-Changer-App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6EB479228BE5DEE00CC1C49 /* MyFirstApp */,
+				B6EB479228BE5DEE00CC1C49 /* 1-Picture-Changer-App */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6EB478E28BE5DEE00CC1C49 /* Build configuration list for PBXProject "MyFirstApp" */ = {
+		B6EB478E28BE5DEE00CC1C49 /* Build configuration list for PBXProject "1-Picture-Changer-App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6EB47A528BE5DF000CC1C49 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6EB47A728BE5DF000CC1C49 /* Build configuration list for PBXNativeTarget "MyFirstApp" */ = {
+		B6EB47A728BE5DF000CC1C49 /* Build configuration list for PBXNativeTarget "1-Picture-Changer-App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6EB47A828BE5DF000CC1C49 /* Debug */,
