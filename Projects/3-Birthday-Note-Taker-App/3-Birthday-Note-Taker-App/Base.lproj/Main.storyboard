@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__Birthday_Note_Taker_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwR-6V-YDB">
+                                <rect key="frame" x="16" y="99" width="358" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="mFs-pM-StR"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Birthday Note Taker App">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NXv-F5-i8h">
+                                <rect key="frame" x="56" y="176" width="276" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="cMX-hF-WHB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FxO-ra-tD0">
+                                <rect key="frame" x="56" y="236" width="276" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="yQH-Pd-68M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05N-m9-dus">
+                                <rect key="frame" x="56" y="308" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="1SF-FW-3NG"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Save">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="24" name="MarkerFelt-Thin"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="saveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gY2-8p-JiI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jO-6k-Rgw">
+                                <rect key="frame" x="212" y="308" width="120" height="40"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Delete">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dFG-vR-Ibj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udd-Sa-9SC">
+                                <rect key="frame" x="16" y="398" width="358" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="eCH-RT-Ztr"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Name: ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="25" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWx-MD-aEp">
+                                <rect key="frame" x="19" y="439" width="350" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="4uf-51-w7D"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Birthday: ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="25" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="birhday-cake-1" translatesAutoresizingMaskIntoConstraints="NO" id="ozF-LJ-58f">
+                                <rect key="frame" x="57" y="509" width="276" height="248"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="FxO-ra-tD0" firstAttribute="centerX" secondItem="RWx-MD-aEp" secondAttribute="centerX" id="36E-PA-z4y"/>
+                            <constraint firstItem="OwR-6V-YDB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="49c-Za-cVB"/>
+                            <constraint firstItem="OwR-6V-YDB" firstAttribute="leading" secondItem="Udd-Sa-9SC" secondAttribute="leading" id="7DK-7N-4yp"/>
+                            <constraint firstItem="Udd-Sa-9SC" firstAttribute="top" secondItem="05N-m9-dus" secondAttribute="bottom" constant="50" id="8aL-Wg-MAy"/>
+                            <constraint firstItem="FxO-ra-tD0" firstAttribute="trailing" secondItem="0jO-6k-Rgw" secondAttribute="trailing" id="8xS-eV-OjP"/>
+                            <constraint firstItem="05N-m9-dus" firstAttribute="baseline" secondItem="0jO-6k-Rgw" secondAttribute="baseline" id="D1S-aX-6OD"/>
+                            <constraint firstItem="0jO-6k-Rgw" firstAttribute="leading" secondItem="05N-m9-dus" secondAttribute="trailing" constant="60" id="DFh-G8-InZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RWx-MD-aEp" secondAttribute="trailing" constant="21" id="FZ5-je-lYr"/>
+                            <constraint firstItem="05N-m9-dus" firstAttribute="leading" secondItem="ozF-LJ-58f" secondAttribute="leading" id="GBR-Za-klL"/>
+                            <constraint firstItem="OwR-6V-YDB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="HeV-hb-zRh"/>
+                            <constraint firstItem="OwR-6V-YDB" firstAttribute="trailing" secondItem="Udd-Sa-9SC" secondAttribute="trailing" id="Hjp-YY-ujn"/>
+                            <constraint firstItem="RWx-MD-aEp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="HwJ-Im-Qxq"/>
+                            <constraint firstItem="RWx-MD-aEp" firstAttribute="top" secondItem="Udd-Sa-9SC" secondAttribute="bottom" constant="8" id="JCy-wk-NtB"/>
+                            <constraint firstItem="0jO-6k-Rgw" firstAttribute="baseline" secondItem="05N-m9-dus" secondAttribute="firstBaseline" id="LhY-db-rIl"/>
+                            <constraint firstItem="FxO-ra-tD0" firstAttribute="top" secondItem="NXv-F5-i8h" secondAttribute="bottom" constant="26" id="Ne4-WJ-Jq4"/>
+                            <constraint firstItem="ozF-LJ-58f" firstAttribute="top" secondItem="RWx-MD-aEp" secondAttribute="bottom" constant="40" id="UkG-L2-Cnt"/>
+                            <constraint firstItem="FxO-ra-tD0" firstAttribute="leading" secondItem="05N-m9-dus" secondAttribute="leading" id="VxG-oY-Jtq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ozF-LJ-58f" secondAttribute="bottom" constant="50" id="aW0-B1-2Cg"/>
+                            <constraint firstItem="NXv-F5-i8h" firstAttribute="top" secondItem="OwR-6V-YDB" secondAttribute="bottom" constant="44" id="e0F-jM-l7e"/>
+                            <constraint firstItem="NXv-F5-i8h" firstAttribute="trailing" secondItem="FxO-ra-tD0" secondAttribute="trailing" id="gJD-Qz-OUJ"/>
+                            <constraint firstItem="0jO-6k-Rgw" firstAttribute="trailing" secondItem="ozF-LJ-58f" secondAttribute="trailing" id="hjj-34-RIw"/>
+                            <constraint firstItem="NXv-F5-i8h" firstAttribute="leading" secondItem="FxO-ra-tD0" secondAttribute="leading" id="j44-nr-S6r"/>
+                            <constraint firstItem="OwR-6V-YDB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uMS-Lb-g57"/>
+                            <constraint firstItem="05N-m9-dus" firstAttribute="top" secondItem="FxO-ra-tD0" secondAttribute="bottom" constant="38" id="xVD-It-jdC"/>
+                            <constraint firstItem="NXv-F5-i8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="yEl-3Z-RaV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appNameLabel" destination="OwR-6V-YDB" id="kCB-Im-Eyy"/>
+                        <outlet property="birthdayLabel" destination="RWx-MD-aEp" id="mVV-LW-LGI"/>
+                        <outlet property="birthdayTextField" destination="FxO-ra-tD0" id="K2T-Gp-gtx"/>
+                        <outlet property="nameLabel" destination="Udd-Sa-9SC" id="a3K-sN-fDt"/>
+                        <outlet property="nameTextField" destination="NXv-F5-i8h" id="iYI-eV-Zhh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.46153846153846" y="71.090047393364927"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="birhday-cake-1" width="1460" height="1460"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
