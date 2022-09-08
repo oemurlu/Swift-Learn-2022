@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B62B5C4F28C7847600F4DED4 /* Segue-App-V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segue-App-V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62B5C4F28C7847600F4DED4 /* 4-Segue-App-V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4-Segue-App-V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62B5C5228C7847600F4DED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B62B5C5428C7847600F4DED4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B62B5C5628C7847600F4DED4 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		B62B5C5028C7847600F4DED4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B62B5C4F28C7847600F4DED4 /* Segue-App-V1.app */,
+				B62B5C4F28C7847600F4DED4 /* 4-Segue-App-V1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B62B5C4E28C7847600F4DED4 /* Segue-App-V1 */ = {
+		B62B5C4E28C7847600F4DED4 /* 4-Segue-App-V1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62B5C6328C7847700F4DED4 /* Build configuration list for PBXNativeTarget "Segue-App-V1" */;
+			buildConfigurationList = B62B5C6328C7847700F4DED4 /* Build configuration list for PBXNativeTarget "4-Segue-App-V1" */;
 			buildPhases = (
 				B62B5C4B28C7847600F4DED4 /* Sources */,
 				B62B5C4C28C7847600F4DED4 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Segue-App-V1";
+			name = "4-Segue-App-V1";
 			productName = "Segue-Learn-YT";
-			productReference = B62B5C4F28C7847600F4DED4 /* Segue-App-V1.app */;
+			productReference = B62B5C4F28C7847600F4DED4 /* 4-Segue-App-V1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B62B5C4A28C7847600F4DED4 /* Build configuration list for PBXProject "Segue-App-V1" */;
+			buildConfigurationList = B62B5C4A28C7847600F4DED4 /* Build configuration list for PBXProject "4-Segue-App-V1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B62B5C4E28C7847600F4DED4 /* Segue-App-V1 */,
+				B62B5C4E28C7847600F4DED4 /* 4-Segue-App-V1 */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B62B5C4A28C7847600F4DED4 /* Build configuration list for PBXProject "Segue-App-V1" */ = {
+		B62B5C4A28C7847600F4DED4 /* Build configuration list for PBXProject "4-Segue-App-V1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62B5C6128C7847700F4DED4 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62B5C6328C7847700F4DED4 /* Build configuration list for PBXNativeTarget "Segue-App-V1" */ = {
+		B62B5C6328C7847700F4DED4 /* Build configuration list for PBXNativeTarget "4-Segue-App-V1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62B5C6428C7847700F4DED4 /* Debug */,
