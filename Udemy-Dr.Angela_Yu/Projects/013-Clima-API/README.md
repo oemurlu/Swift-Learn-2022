@@ -5,4 +5,11 @@ In this application, you can see the live weather conditions of the city you are
 <img width="333" src="/Udemy-Dr.Angela_Yu/Projects/013-Clima-API//gif/gif-dark.gif">
 </p>
 
+## :hammer: API
+
+* [Open Weather](https://openweathermap.org/api)
+
+
+## :bangbang: Note
+To use this application, you have to write your own API key to the code.
 

@@ -19,6 +19,7 @@ On your project directory, run:
 pod install
 ```
 
-:bangbang: I deleted the GoogleService-Info.plist file for security reasons. If you want to use this application, you must download your own GoogleService-Info.plist file from Firebase.
+## :bangbang: Note
+I deleted the GoogleService-Info.plist file for security reasons. If you want to use this application, you must download your own GoogleService-Info.plist file from Firebase.
 
 
