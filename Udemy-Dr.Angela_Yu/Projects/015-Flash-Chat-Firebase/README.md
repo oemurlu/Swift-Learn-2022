@@ -7,9 +7,8 @@ This is a chat application. Users can register, login and logout. They can send 
 
 ## :hammer: Tools
 
-* Swift Package Manager
-* Cocoapods
-* Realm
+* Swift Package Manager (Firebase)
+* Cocoapods (IQKeyboardManagerSwift)
 
 ## :rocket: Installing guide
 
