@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LOS-u6-siM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top Charts-->
+        <scene sceneID="Qsk-Qx-y4T">
+            <objects>
+                <tableViewController id="a0a-KY-mQ2" customClass="TopChartsTableViewController" customModule="Top_Charts" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="soJ-Ur-lre">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongCell" rowHeight="66" id="PK0-CZ-mwG" customClass="SongTableViewCell" customModule="Top_Charts" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="414" height="66"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PK0-CZ-mwG" id="11i-ol-Ucb">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="66"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="paf-9C-KmA">
+                                            <rect key="frame" x="15" y="8" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="J02-HX-2hP"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="KHz-Tz-dGu"/>
+                                                <constraint firstAttribute="height" constant="50" id="qg8-kL-wfB"/>
+                                                <constraint firstAttribute="width" constant="50" id="ura-dP-J35"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ogm-hz-hNf">
+                                            <rect key="frame" x="80" y="13.5" width="319" height="39.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcK-Jl-SyA">
+                                                    <rect key="frame" x="0.0" y="0.0" width="319" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzl-dE-x4z">
+                                                    <rect key="frame" x="0.0" y="21.5" width="319" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ogm-hz-hNf" firstAttribute="leading" secondItem="paf-9C-KmA" secondAttribute="trailing" constant="15" id="68w-5N-7u6"/>
+                                        <constraint firstItem="paf-9C-KmA" firstAttribute="leading" secondItem="11i-ol-Ucb" secondAttribute="leading" constant="15" id="9qs-WK-S4a"/>
+                                        <constraint firstAttribute="trailing" secondItem="ogm-hz-hNf" secondAttribute="trailing" constant="15" id="Hcg-IR-Odh"/>
+                                        <constraint firstAttribute="trailing" secondItem="ogm-hz-hNf" secondAttribute="trailing" constant="15" id="JHA-qg-P0V"/>
+                                        <constraint firstItem="ogm-hz-hNf" firstAttribute="leading" secondItem="paf-9C-KmA" secondAttribute="trailing" constant="15" id="V3g-LI-csi"/>
+                                        <constraint firstItem="paf-9C-KmA" firstAttribute="centerY" secondItem="11i-ol-Ucb" secondAttribute="centerY" id="aC1-13-c3u"/>
+                                        <constraint firstItem="ogm-hz-hNf" firstAttribute="centerY" secondItem="11i-ol-Ucb" secondAttribute="centerY" id="gyy-V7-mHj"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="albumCoverImageView" destination="paf-9C-KmA" id="dmJ-GU-6ax"/>
+                                    <outlet property="artistNameLabel" destination="Yzl-dE-x4z" id="ron-JS-BM1"/>
+                                    <outlet property="songNameLabel" destination="dcK-Jl-SyA" id="Gsp-Rw-BxZ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="a0a-KY-mQ2" id="qFm-Tr-YMR"/>
+                            <outlet property="delegate" destination="a0a-KY-mQ2" id="a9M-Bw-KwH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Top Charts" id="w9A-dn-rs8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GUP-OH-jPG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1189.8550724637682" y="38.839285714285715"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xT8-wI-ckm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LOS-u6-siM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="HCX-4H-Fan">
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a0a-KY-mQ2" kind="relationship" relationship="rootViewController" id="FF0-6O-1or"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CUZ-iY-5zg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279.71014492753625" y="38.839285714285715"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
