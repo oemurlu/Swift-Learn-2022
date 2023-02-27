@@ -10,5 +10,5 @@ While making this project i benefited from this video: [Youtube link](https://yo
 - Swift Package Manager
 
 <p float="left">
-<img width="333" src="/Mixed-Tutorials/001-RickAndMorty-NoSB-SnapKit/gif/preview.gif">
+<img width="333" src="/Mixed-Tutorials-And-Exercises/Tutorials/001-RickAndMorty-NoSB-SnapKit/gif/preview.gif">
 </p>
