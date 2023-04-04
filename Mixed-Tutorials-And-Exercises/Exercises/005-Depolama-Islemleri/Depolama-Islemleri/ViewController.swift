@@ -2,45 +2,47 @@
 //  ViewController.swift
 //  Depolama-Islemleri
 //
-//  Created by Osman Emre Ömürlü on 3.04.2023.
+//  Created by Osman Emre Ömürlü on 4.04.2023.
 //
 
 import UIKit
+
+//tema rengini userDefaults'a kaydedecegiz. uygulama kapanirken tema neyse acilinca da o olacak.
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    
-    func userDefYaz(value: Any, key: String) {
-        
-        let userDefaults = UserDefaults.standard
-        userDefaults.set(value, forKey: key)
-        userDefaults.synchronize() // yazma islemi
+
+        // uygulama acildiginda  tema neyse o olsun
+        TemaUygula()
     }
 
-    func userDefOku(key: String) -> String {
-        if let deger = UserDefaults.standard.string(forKey: key) {
-            return deger
-        }
-        return ""
+
+    @IBAction func btnAcik_TUI(_ sender: Any) {
+        TemaYaz(tema: "A")
+        TemaUygula()
     }
     
-    func userDefSil(key: String) {
-        if UserDefaults.standard.object(forKey: key) != nil {
-            UserDefaults.standard.removeObject(forKey: key)
-            UserDefaults.standard.synchronize()
-        }
+    @IBAction func btnKoyu_TUI(_ sender: Any) {
+        TemaYaz(tema: "K")
+        TemaUygula()
     }
     
+    func TemaYaz(tema: String) {
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(tema, forKey: "tema")
+        userDefaults.synchronize()
+    }
     
-    
-    
-    
+    func TemaUygula() {
+        if UserDefaults.standard.string(forKey: "tema") == "K" {
+            view.backgroundColor = UIColor(named: "koyu")
+        } else {
+            view.backgroundColor = UIColor(named: "acik")
+        }
+    }
     
     
     
 }
-
