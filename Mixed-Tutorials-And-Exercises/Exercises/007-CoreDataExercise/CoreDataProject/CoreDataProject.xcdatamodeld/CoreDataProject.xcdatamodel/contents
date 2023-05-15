@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Yapilacak" representedClassName="Yapilacak" syncable="YES" codeGenerationType="class">
+        <attribute name="baslik" optional="YES" attributeType="String"/>
+        <attribute name="icerik" optional="YES" attributeType="String"/>
+    </entity>
+</model>
