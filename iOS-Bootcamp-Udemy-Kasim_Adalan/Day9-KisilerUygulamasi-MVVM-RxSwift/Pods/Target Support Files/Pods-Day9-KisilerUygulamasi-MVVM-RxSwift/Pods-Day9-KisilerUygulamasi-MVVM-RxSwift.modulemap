@@ -1,0 +1,6 @@
+framework module Pods_Day9_KisilerUygulamasi_MVVM_RxSwift {
+  umbrella header "Pods-Day9-KisilerUygulamasi-MVVM-RxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
