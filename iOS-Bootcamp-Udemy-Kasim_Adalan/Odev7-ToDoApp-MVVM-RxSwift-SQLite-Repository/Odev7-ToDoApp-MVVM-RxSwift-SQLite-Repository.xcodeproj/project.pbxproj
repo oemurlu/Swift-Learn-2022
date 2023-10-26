@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6E8A28B2AE8681D008BD74A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A28A2AE8681D008BD74A /* AppDelegate.swift */; };
+		B6E8A28D2AE8681D008BD74A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A28C2AE8681D008BD74A /* SceneDelegate.swift */; };
+		B6E8A28F2AE8681D008BD74A /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A28E2AE8681D008BD74A /* Anasayfa.swift */; };
+		B6E8A2922AE8681D008BD74A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E8A2902AE8681D008BD74A /* Main.storyboard */; };
+		B6E8A2942AE8681E008BD74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E8A2932AE8681E008BD74A /* Assets.xcassets */; };
+		B6E8A2972AE8681E008BD74A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E8A2952AE8681E008BD74A /* LaunchScreen.storyboard */; };
+		B6E8A2A62AE86F6E008BD74A /* ToDoKayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2A52AE86F6E008BD74A /* ToDoKayit.swift */; };
+		B6E8A2A92AE86F84008BD74A /* ToDoDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2A82AE86F84008BD74A /* ToDoDetay.swift */; };
+		B6E8A2AB2AE871D2008BD74A /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2AA2AE871D2008BD74A /* AnasayfaViewModel.swift */; };
+		B6E8A2AD2AE871F6008BD74A /* KayitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2AC2AE871F6008BD74A /* KayitViewModel.swift */; };
+		B6E8A2AF2AE87205008BD74A /* DetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2AE2AE87205008BD74A /* DetayViewModel.swift */; };
+		B6E8A2B12AE87234008BD74A /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2B02AE87234008BD74A /* ToDoCell.swift */; };
+		B6E8A2B32AE8724A008BD74A /* ToDoDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2B22AE8724A008BD74A /* ToDoDaoRepository.swift */; };
+		B6E8A2B52AE87258008BD74A /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8A2B42AE87258008BD74A /* ToDo.swift */; };
+		B6F856E32AE9ABC400AC7C85 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F856D92AE9ABC400AC7C85 /* FMDatabaseQueue.m */; };
+		B6F856E42AE9ABC500AC7C85 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F856DA2AE9ABC400AC7C85 /* FMDatabaseAdditions.m */; };
+		B6F856E52AE9ABC500AC7C85 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F856DF2AE9ABC400AC7C85 /* FMResultSet.m */; };
+		B6F856E62AE9ABC500AC7C85 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F856E02AE9ABC400AC7C85 /* FMDatabase.m */; };
+		B6F856E72AE9ABC500AC7C85 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F856E22AE9ABC400AC7C85 /* FMDatabasePool.m */; };
+		B6F856F32AE9C1BB00AC7C85 /* yapilacaklar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B6F856F22AE9C1BB00AC7C85 /* yapilacaklar.sqlite */; };
+		B6F856F62AEAE49400AC7C85 /* DelegateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F856F52AEAE49400AC7C85 /* DelegateScreen.swift */; };
+		D42BC7F054B3726F7FD8482E /* Pods_Odev7_ToDoApp_MVVM_RxSwift_SQLite_Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CB5F102860272A18B75B0C /* Pods_Odev7_ToDoApp_MVVM_RxSwift_SQLite_Repository.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20CB5F102860272A18B75B0C /* Pods_Odev7_ToDoApp_MVVM_RxSwift_SQLite_Repository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odev7_ToDoApp_MVVM_RxSwift_SQLite_Repository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488DCBE9F9FD3515FE829CED /* Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.release.xcconfig"; path = "Target Support Files/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.release.xcconfig"; sourceTree = "<group>"; };
+		B55DB798ECC1AE4D048DECD5 /* Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.debug.xcconfig"; path = "Target Support Files/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E8A2872AE8681D008BD74A /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E8A28A2AE8681D008BD74A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6E8A28C2AE8681D008BD74A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6E8A28E2AE8681D008BD74A /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		B6E8A2912AE8681D008BD74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6E8A2932AE8681E008BD74A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E8A2962AE8681E008BD74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E8A2982AE8681E008BD74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E8A2A52AE86F6E008BD74A /* ToDoKayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoKayit.swift; sourceTree = "<group>"; };
+		B6E8A2A82AE86F84008BD74A /* ToDoDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetay.swift; sourceTree = "<group>"; };
+		B6E8A2AA2AE871D2008BD74A /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		B6E8A2AC2AE871F6008BD74A /* KayitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitViewModel.swift; sourceTree = "<group>"; };
+		B6E8A2AE2AE87205008BD74A /* DetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewModel.swift; sourceTree = "<group>"; };
+		B6E8A2B02AE87234008BD74A /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		B6E8A2B22AE8724A008BD74A /* ToDoDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDaoRepository.swift; sourceTree = "<group>"; };
+		B6E8A2B42AE87258008BD74A /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		B6F856D62AE9AACE00AC7C85 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B6F856D72AE9ABC400AC7C85 /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6F856D82AE9ABC400AC7C85 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B6F856D92AE9ABC400AC7C85 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B6F856DA2AE9ABC400AC7C85 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B6F856DB2AE9ABC400AC7C85 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B6F856DC2AE9ABC400AC7C85 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B6F856DD2AE9ABC400AC7C85 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B6F856DE2AE9ABC400AC7C85 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B6F856DF2AE9ABC400AC7C85 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B6F856E02AE9ABC400AC7C85 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B6F856E12AE9ABC400AC7C85 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B6F856E22AE9ABC400AC7C85 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B6F856F22AE9C1BB00AC7C85 /* yapilacaklar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = yapilacaklar.sqlite; path = ../../../../../Desktop/yapilacaklar.sqlite; sourceTree = "<group>"; };
+		B6F856F52AEAE49400AC7C85 /* DelegateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E8A2842AE8681D008BD74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42BC7F054B3726F7FD8482E /* Pods_Odev7_ToDoApp_MVVM_RxSwift_SQLite_Repository.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4990FD7649B0492B203CEC36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F856D62AE9AACE00AC7C85 /* libsqlite3.tbd */,
+				20CB5F102860272A18B75B0C /* Pods_Odev7_ToDoApp_MVVM_RxSwift_SQLite_Repository.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6E8A27E2AE8681D008BD74A = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2892AE8681D008BD74A /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository */,
+				B6E8A2882AE8681D008BD74A /* Products */,
+				C98DE48ED7BF180AA752BECC /* Pods */,
+				4990FD7649B0492B203CEC36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E8A2882AE8681D008BD74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2872AE8681D008BD74A /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E8A2892AE8681D008BD74A /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A28A2AE8681D008BD74A /* AppDelegate.swift */,
+				B6E8A28C2AE8681D008BD74A /* SceneDelegate.swift */,
+				B6F856F42AEAE47000AC7C85 /* protocols */,
+				B6E8A29F2AE86BCC008BD74A /* data */,
+				B6E8A29E2AE86BC6008BD74A /* ui */,
+				B6E8A2902AE8681D008BD74A /* Main.storyboard */,
+				B6E8A2932AE8681E008BD74A /* Assets.xcassets */,
+				B6E8A2952AE8681E008BD74A /* LaunchScreen.storyboard */,
+				B6E8A2982AE8681E008BD74A /* Info.plist */,
+				B6F856D82AE9ABC400AC7C85 /* FMDatabase.h */,
+				B6F856E02AE9ABC400AC7C85 /* FMDatabase.m */,
+				B6F856DC2AE9ABC400AC7C85 /* FMDatabaseAdditions.h */,
+				B6F856DA2AE9ABC400AC7C85 /* FMDatabaseAdditions.m */,
+				B6F856DB2AE9ABC400AC7C85 /* FMDatabasePool.h */,
+				B6F856E22AE9ABC400AC7C85 /* FMDatabasePool.m */,
+				B6F856DD2AE9ABC400AC7C85 /* FMDatabaseQueue.h */,
+				B6F856D92AE9ABC400AC7C85 /* FMDatabaseQueue.m */,
+				B6F856E12AE9ABC400AC7C85 /* FMDB.h */,
+				B6F856DE2AE9ABC400AC7C85 /* FMResultSet.h */,
+				B6F856DF2AE9ABC400AC7C85 /* FMResultSet.m */,
+				B6F856F22AE9C1BB00AC7C85 /* yapilacaklar.sqlite */,
+				B6F856D72AE9ABC400AC7C85 /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-Bridging-Header.h */,
+			);
+			path = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository";
+			sourceTree = "<group>";
+		};
+		B6E8A29E2AE86BC6008BD74A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2A22AE86BEB008BD74A /* tableView */,
+				B6E8A2A12AE86BDA008BD74A /* viewModel */,
+				B6E8A2A02AE86BD4008BD74A /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		B6E8A29F2AE86BCC008BD74A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2A42AE86C05008BD74A /* entity */,
+				B6E8A2A32AE86BFF008BD74A /* repo */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B6E8A2A02AE86BD4008BD74A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A28E2AE8681D008BD74A /* Anasayfa.swift */,
+				B6E8A2A52AE86F6E008BD74A /* ToDoKayit.swift */,
+				B6E8A2A82AE86F84008BD74A /* ToDoDetay.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B6E8A2A12AE86BDA008BD74A /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2AA2AE871D2008BD74A /* AnasayfaViewModel.swift */,
+				B6E8A2AC2AE871F6008BD74A /* KayitViewModel.swift */,
+				B6E8A2AE2AE87205008BD74A /* DetayViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		B6E8A2A22AE86BEB008BD74A /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2B02AE87234008BD74A /* ToDoCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		B6E8A2A32AE86BFF008BD74A /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2B22AE8724A008BD74A /* ToDoDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		B6E8A2A42AE86C05008BD74A /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8A2B42AE87258008BD74A /* ToDo.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B6F856F42AEAE47000AC7C85 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B6F856F52AEAE49400AC7C85 /* DelegateScreen.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		C98DE48ED7BF180AA752BECC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B55DB798ECC1AE4D048DECD5 /* Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.debug.xcconfig */,
+				488DCBE9F9FD3515FE829CED /* Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E8A2862AE8681D008BD74A /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E8A29B2AE8681E008BD74A /* Build configuration list for PBXNativeTarget "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository" */;
+			buildPhases = (
+				1B164608713E3CC47A6285A8 /* [CP] Check Pods Manifest.lock */,
+				B6E8A2832AE8681D008BD74A /* Sources */,
+				B6E8A2842AE8681D008BD74A /* Frameworks */,
+				B6E8A2852AE8681D008BD74A /* Resources */,
+				7BC1CBD3F02880B5F3594BF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository";
+			productName = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository";
+			productReference = B6E8A2872AE8681D008BD74A /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E8A27F2AE8681D008BD74A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B6E8A2862AE8681D008BD74A = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = B6E8A2822AE8681D008BD74A /* Build configuration list for PBXProject "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E8A27E2AE8681D008BD74A;
+			productRefGroup = B6E8A2882AE8681D008BD74A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E8A2862AE8681D008BD74A /* Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E8A2852AE8681D008BD74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E8A2972AE8681E008BD74A /* LaunchScreen.storyboard in Resources */,
+				B6F856F32AE9C1BB00AC7C85 /* yapilacaklar.sqlite in Resources */,
+				B6E8A2942AE8681E008BD74A /* Assets.xcassets in Resources */,
+				B6E8A2922AE8681D008BD74A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B164608713E3CC47A6285A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC1CBD3F02880B5F3594BF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E8A2832AE8681D008BD74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E8A2B32AE8724A008BD74A /* ToDoDaoRepository.swift in Sources */,
+				B6E8A28F2AE8681D008BD74A /* Anasayfa.swift in Sources */,
+				B6F856E52AE9ABC500AC7C85 /* FMResultSet.m in Sources */,
+				B6F856E62AE9ABC500AC7C85 /* FMDatabase.m in Sources */,
+				B6E8A28B2AE8681D008BD74A /* AppDelegate.swift in Sources */,
+				B6E8A2B52AE87258008BD74A /* ToDo.swift in Sources */,
+				B6E8A2AB2AE871D2008BD74A /* AnasayfaViewModel.swift in Sources */,
+				B6F856E32AE9ABC400AC7C85 /* FMDatabaseQueue.m in Sources */,
+				B6E8A2A62AE86F6E008BD74A /* ToDoKayit.swift in Sources */,
+				B6E8A2AF2AE87205008BD74A /* DetayViewModel.swift in Sources */,
+				B6F856E42AE9ABC500AC7C85 /* FMDatabaseAdditions.m in Sources */,
+				B6E8A2AD2AE871F6008BD74A /* KayitViewModel.swift in Sources */,
+				B6E8A2A92AE86F84008BD74A /* ToDoDetay.swift in Sources */,
+				B6F856E72AE9ABC500AC7C85 /* FMDatabasePool.m in Sources */,
+				B6E8A2B12AE87234008BD74A /* ToDoCell.swift in Sources */,
+				B6E8A28D2AE8681D008BD74A /* SceneDelegate.swift in Sources */,
+				B6F856F62AEAE49400AC7C85 /* DelegateScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6E8A2902AE8681D008BD74A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E8A2912AE8681D008BD74A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E8A2952AE8681E008BD74A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E8A2962AE8681E008BD74A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E8A2992AE8681E008BD74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6E8A29A2AE8681E008BD74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E8A29C2AE8681E008BD74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55DB798ECC1AE4D048DECD5 /* Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZ673SNB7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.oemurlu.Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E8A29D2AE8681E008BD74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488DCBE9F9FD3515FE829CED /* Pods-Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZ673SNB7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.oemurlu.Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository/Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E8A2822AE8681D008BD74A /* Build configuration list for PBXProject "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E8A2992AE8681E008BD74A /* Debug */,
+				B6E8A29A2AE8681E008BD74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E8A29B2AE8681E008BD74A /* Build configuration list for PBXNativeTarget "Odev7-ToDoApp-MVVM-RxSwift-SQLite-Repository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E8A29C2AE8681E008BD74A /* Debug */,
+				B6E8A29D2AE8681E008BD74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E8A27F2AE8681D008BD74A /* Project object */;
+}
