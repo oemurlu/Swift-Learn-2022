@@ -1,0 +1,6 @@
+framework module Pods_Day10_FilmlerApp_MVVM_RxSwift_Repository_SQLite {
+  umbrella header "Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite-umbrella.h"
+
+  export *
+  module * { export * }
+}
