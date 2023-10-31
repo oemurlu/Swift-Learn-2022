@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Day12_3_KisilerUygulamasi_MVVM_RxSwift_Firestore : NSObject
+@end
+@implementation PodsDummy_Pods_Day12_3_KisilerUygulamasi_MVVM_RxSwift_Firestore
+@end

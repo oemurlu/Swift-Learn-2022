@@ -1,0 +1,9 @@
+# Podfile
+use_frameworks!
+
+target 'Day12.3-KisilerUygulamasi-MVVM-RxSwift-Firestore' do
+    pod 'RxSwift', '6.5.0'
+    pod 'RxCocoa', '6.5.0'
+pod 'FirebaseFirestore'
+end
+
