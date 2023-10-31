@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CEB7678E9D3832B3A1D89C6 /* Pods_Day10_FilmlerApp_MVVM_RxSwift_Repository_SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936C11A86D2D9311CD0D6F8C /* Pods_Day10_FilmlerApp_MVVM_RxSwift_Repository_SQLite.framework */; };
+		B601EEB62AF0ED9D00C229C9 /* FilmlerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B601EEB52AF0ED9D00C229C9 /* FilmlerCevap.swift */; };
+		B6B87F532AE1D02700BCE2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87F522AE1D02700BCE2F7 /* AppDelegate.swift */; };
+		B6B87F552AE1D02700BCE2F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87F542AE1D02700BCE2F7 /* SceneDelegate.swift */; };
+		B6B87F572AE1D02700BCE2F7 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87F562AE1D02700BCE2F7 /* Anasayfa.swift */; };
+		B6B87F5A2AE1D02700BCE2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B87F582AE1D02700BCE2F7 /* Main.storyboard */; };
+		B6B87F5C2AE1D02900BCE2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B87F5B2AE1D02900BCE2F7 /* Assets.xcassets */; };
+		B6B87F5F2AE1D02900BCE2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B87F5D2AE1D02900BCE2F7 /* LaunchScreen.storyboard */; };
+		B6B87F6C2AE1D3D400BCE2F7 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87F6B2AE1D3D400BCE2F7 /* Filmler.swift */; };
+		B6B87F6E2AE1D46F00BCE2F7 /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87F6D2AE1D46F00BCE2F7 /* DetaySayfa.swift */; };
+		B6B87F702AE1D57600BCE2F7 /* FilmlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87F6F2AE1D57600BCE2F7 /* FilmlerHucre.swift */; };
+		B6B87FE42AE4871E00BCE2F7 /* FilmlerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87FE32AE4871E00BCE2F7 /* FilmlerDaoRepository.swift */; };
+		B6B87FE72AE4875500BCE2F7 /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B87FE62AE4875500BCE2F7 /* AnasayfaViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14AE7470F3B02BA19C2DD96D /* Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.release.xcconfig"; path = "Target Support Files/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.release.xcconfig"; sourceTree = "<group>"; };
+		936C11A86D2D9311CD0D6F8C /* Pods_Day10_FilmlerApp_MVVM_RxSwift_Repository_SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day10_FilmlerApp_MVVM_RxSwift_Repository_SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB437929D333437B642CB39 /* Pods-Day8.2-FilmlerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8.2-FilmlerApp.release.xcconfig"; path = "Target Support Files/Pods-Day8.2-FilmlerApp/Pods-Day8.2-FilmlerApp.release.xcconfig"; sourceTree = "<group>"; };
+		B54ECDED337718C78F6F426B /* Pods-Day8.2-FilmlerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8.2-FilmlerApp.debug.xcconfig"; path = "Target Support Files/Pods-Day8.2-FilmlerApp/Pods-Day8.2-FilmlerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B601EEB52AF0ED9D00C229C9 /* FilmlerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerCevap.swift; sourceTree = "<group>"; };
+		B6B87F4F2AE1D02700BCE2F7 /* Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B87F522AE1D02700BCE2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6B87F542AE1D02700BCE2F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6B87F562AE1D02700BCE2F7 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		B6B87F592AE1D02700BCE2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6B87F5B2AE1D02900BCE2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B87F5E2AE1D02900BCE2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6B87F602AE1D02900BCE2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B87F6B2AE1D3D400BCE2F7 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		B6B87F6D2AE1D46F00BCE2F7 /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
+		B6B87F6F2AE1D57600BCE2F7 /* FilmlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerHucre.swift; sourceTree = "<group>"; };
+		B6B87FE32AE4871E00BCE2F7 /* FilmlerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDaoRepository.swift; sourceTree = "<group>"; };
+		B6B87FE62AE4875500BCE2F7 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		B6F856F72AEBECE600AC7C85 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CDEF2E60DAE2F6D308F9EBDF /* Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.debug.xcconfig"; path = "Target Support Files/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B87F4C2AE1D02700BCE2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEB7678E9D3832B3A1D89C6 /* Pods_Day10_FilmlerApp_MVVM_RxSwift_Repository_SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0160E78CE3CB1D5AC3EA0E93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F856F72AEBECE600AC7C85 /* libsqlite3.tbd */,
+				936C11A86D2D9311CD0D6F8C /* Pods_Day10_FilmlerApp_MVVM_RxSwift_Repository_SQLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B87F462AE1D02700BCE2F7 = {
+			isa = PBXGroup;
+			children = (
+				B6B87F512AE1D02700BCE2F7 /* Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite */,
+				B6B87F502AE1D02700BCE2F7 /* Products */,
+				F54738C66C8666206F1E4976 /* Pods */,
+				0160E78CE3CB1D5AC3EA0E93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B87F502AE1D02700BCE2F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87F4F2AE1D02700BCE2F7 /* Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B87F512AE1D02700BCE2F7 /* Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87F522AE1D02700BCE2F7 /* AppDelegate.swift */,
+				B6B87F542AE1D02700BCE2F7 /* SceneDelegate.swift */,
+				B6B87F672AE1D36F00BCE2F7 /* ui */,
+				B6B87F662AE1D35B00BCE2F7 /* data */,
+				B6B87F582AE1D02700BCE2F7 /* Main.storyboard */,
+				B6B87F5B2AE1D02900BCE2F7 /* Assets.xcassets */,
+				B6B87F5D2AE1D02900BCE2F7 /* LaunchScreen.storyboard */,
+				B6B87F602AE1D02900BCE2F7 /* Info.plist */,
+			);
+			path = "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite";
+			sourceTree = "<group>";
+		};
+		B6B87F662AE1D35B00BCE2F7 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87FE22AE4870900BCE2F7 /* Repository */,
+				B6B87F692AE1D38000BCE2F7 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B6B87F672AE1D36F00BCE2F7 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87FE52AE4874A00BCE2F7 /* viewModel */,
+				B6B87F6A2AE1D38800BCE2F7 /* collectionView */,
+				B6B87F682AE1D37500BCE2F7 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		B6B87F682AE1D37500BCE2F7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87F562AE1D02700BCE2F7 /* Anasayfa.swift */,
+				B6B87F6D2AE1D46F00BCE2F7 /* DetaySayfa.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B6B87F692AE1D38000BCE2F7 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87F6B2AE1D3D400BCE2F7 /* Filmler.swift */,
+				B601EEB52AF0ED9D00C229C9 /* FilmlerCevap.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B6B87F6A2AE1D38800BCE2F7 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87F6F2AE1D57600BCE2F7 /* FilmlerHucre.swift */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		B6B87FE22AE4870900BCE2F7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87FE32AE4871E00BCE2F7 /* FilmlerDaoRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B6B87FE52AE4874A00BCE2F7 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6B87FE62AE4875500BCE2F7 /* AnasayfaViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		F54738C66C8666206F1E4976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B54ECDED337718C78F6F426B /* Pods-Day8.2-FilmlerApp.debug.xcconfig */,
+				AFB437929D333437B642CB39 /* Pods-Day8.2-FilmlerApp.release.xcconfig */,
+				CDEF2E60DAE2F6D308F9EBDF /* Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.debug.xcconfig */,
+				14AE7470F3B02BA19C2DD96D /* Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B87F4E2AE1D02700BCE2F7 /* Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B87F632AE1D02900BCE2F7 /* Build configuration list for PBXNativeTarget "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite" */;
+			buildPhases = (
+				4F4051C58647B3CDCAF1B187 /* [CP] Check Pods Manifest.lock */,
+				B6B87F4B2AE1D02700BCE2F7 /* Sources */,
+				B6B87F4C2AE1D02700BCE2F7 /* Frameworks */,
+				B6B87F4D2AE1D02700BCE2F7 /* Resources */,
+				4B6A07A94517B96AB7094C59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite";
+			productName = "Day8.2-FilmlerApp";
+			productReference = B6B87F4F2AE1D02700BCE2F7 /* Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B87F472AE1D02700BCE2F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B6B87F4E2AE1D02700BCE2F7 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = B6B87F4A2AE1D02700BCE2F7 /* Build configuration list for PBXProject "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B87F462AE1D02700BCE2F7;
+			productRefGroup = B6B87F502AE1D02700BCE2F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B87F4E2AE1D02700BCE2F7 /* Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B87F4D2AE1D02700BCE2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B87F5F2AE1D02900BCE2F7 /* LaunchScreen.storyboard in Resources */,
+				B6B87F5C2AE1D02900BCE2F7 /* Assets.xcassets in Resources */,
+				B6B87F5A2AE1D02700BCE2F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B6A07A94517B96AB7094C59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F4051C58647B3CDCAF1B187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B87F4B2AE1D02700BCE2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B87F572AE1D02700BCE2F7 /* Anasayfa.swift in Sources */,
+				B6B87F532AE1D02700BCE2F7 /* AppDelegate.swift in Sources */,
+				B6B87FE72AE4875500BCE2F7 /* AnasayfaViewModel.swift in Sources */,
+				B6B87F552AE1D02700BCE2F7 /* SceneDelegate.swift in Sources */,
+				B6B87F6E2AE1D46F00BCE2F7 /* DetaySayfa.swift in Sources */,
+				B601EEB62AF0ED9D00C229C9 /* FilmlerCevap.swift in Sources */,
+				B6B87F6C2AE1D3D400BCE2F7 /* Filmler.swift in Sources */,
+				B6B87F702AE1D57600BCE2F7 /* FilmlerHucre.swift in Sources */,
+				B6B87FE42AE4871E00BCE2F7 /* FilmlerDaoRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6B87F582AE1D02700BCE2F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B87F592AE1D02700BCE2F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6B87F5D2AE1D02900BCE2F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B87F5E2AE1D02900BCE2F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B87F612AE1D02900BCE2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6B87F622AE1D02900BCE2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B87F642AE1D02900BCE2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEF2E60DAE2F6D308F9EBDF /* Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZ673SNB7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.oemurlu.Day8-2-FilmlerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Day10-FilmlerApp-MVVM-RxSwift-Repository-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6B87F652AE1D02900BCE2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14AE7470F3B02BA19C2DD96D /* Pods-Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZ673SNB7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.oemurlu.Day8-2-FilmlerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite/Day10-FilmlerApp-MVVM-RxSwift-Repository-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B87F4A2AE1D02700BCE2F7 /* Build configuration list for PBXProject "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B87F612AE1D02900BCE2F7 /* Debug */,
+				B6B87F622AE1D02900BCE2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B87F632AE1D02900BCE2F7 /* Build configuration list for PBXNativeTarget "Day10-FilmlerApp-MVVM-RxSwift-Repository-SQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B87F642AE1D02900BCE2F7 /* Debug */,
+				B6B87F652AE1D02900BCE2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B87F472AE1D02700BCE2F7 /* Project object */;
+}
