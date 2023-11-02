@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Day14_LokasyonKullanimi_CoreLocation_MapKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHM-Pi-60U">
+                                <rect key="frame" x="186" y="98" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSf-ak-4sC">
+                                <rect key="frame" x="186" y="169" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hk-Kj-0fR">
+                                <rect key="frame" x="186" y="240" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AnU-GO-pjv">
+                                <rect key="frame" x="32" y="331.5" width="350" height="466.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="AnU-GO-pjv" secondAttribute="height" multiplier="3:4" id="vm3-lA-D2G"/>
+                                </constraints>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AnU-GO-pjv" secondAttribute="bottom" constant="64" id="BHm-vf-SWO"/>
+                            <constraint firstItem="3hk-Kj-0fR" firstAttribute="top" secondItem="gSf-ak-4sC" secondAttribute="bottom" constant="50" id="Iuz-fm-A49"/>
+                            <constraint firstItem="gSf-ak-4sC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="StD-Gb-p4N"/>
+                            <constraint firstItem="IHM-Pi-60U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="T8v-MA-9hm"/>
+                            <constraint firstItem="AnU-GO-pjv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ehN-OG-I7J"/>
+                            <constraint firstItem="AnU-GO-pjv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.845411" id="ert-Jm-zLE"/>
+                            <constraint firstItem="IHM-Pi-60U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fBY-fh-zWQ"/>
+                            <constraint firstItem="3hk-Kj-0fR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mLn-Wb-W8L"/>
+                            <constraint firstItem="gSf-ak-4sC" firstAttribute="top" secondItem="IHM-Pi-60U" secondAttribute="bottom" constant="50" id="xMd-17-QvH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelBoylam" destination="gSf-ak-4sC" id="LDO-dj-XNA"/>
+                        <outlet property="labelEnlem" destination="IHM-Pi-60U" id="bZM-Dj-COQ"/>
+                        <outlet property="labelHiz" destination="3hk-Kj-0fR" id="W5H-Kg-HeN"/>
+                        <outlet property="mapView" destination="AnU-GO-pjv" id="S4F-Lc-YGG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="27.536231884057973" y="3.3482142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
