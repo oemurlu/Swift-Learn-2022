@@ -29,13 +29,13 @@ You can add multiple users to your favorites. You can see the details, video and
 * Custom empty state view
 
 ## API
-* GitHub API
+* [GitHub API](https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28)
 
 # Screenshots
 
 <p float="left">
-<img width="240" src="/screenshots/ss1.png">
-<img width="240" src="/screenshots/ss2.png">
-<img width="240" src="/screenshots/ss3.png">
-<img width="240" src="/screenshots/ss4.png">
+<img width="240" src="./screenshots/ss1.png">
+<img width="240" src="./screenshots/ss2.png">
+<img width="240" src="./screenshots/ss3.png">
+<img width="230" src="./screenshots/ss4.png">
 </p>
